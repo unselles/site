@@ -76,8 +76,8 @@ There's a few ways to do this, I will cover the way I personally cook and pack m
 1. In Unreal Engine, go into File -> Cook Content for Windows. This will cook the content in `YourProjectName\Saved\Cooked`
 2. Go in `YouProjectName\Saved\Cooked\WindowsNoEditor\YouProjectName` and copy the Content folder.
 3. Paste the Content folder in a different location where your workfolder is located. (You should create some sort of a workfolder for organization, not necessary)
-4. Create a folder called pakchunk99-Mods_YourModsName_P and paste in the Content folder you copied. (Mod names can differ, this is just how I personally name them, the `_P` is necessary)
-5. Find the master material uasset (MM_HelicopterInterior.uasset) and don't cook/don't copy it to your mods workfolder.
+4. Create a folder called pakchunk99-Mods_YourModsName_P. Make another folder called PAYDAY3 inside that folder, then paste in the Content folder you copied inside PAYDAY3. (Mod names can differ, this is just how I personally name them, the `_P` is necessary)
+5. Find the master material uasset (MM_HelicopterInterior.uasset) and make sure not to include it in the final mod folder before packing.
 6. Create the .pak file, you can either use [UnrealPak, repak or other solutions.](/docs/additional-resources/tools)
 
 ### Testing the mod
